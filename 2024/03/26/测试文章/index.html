@@ -4,7 +4,7 @@
 <head>
     <link rel="icon" href="/images/%E5%A4%B4%E5%83%8F.jpg" />
     <meta charset="utf-8" />
-    <title>Archives | Zaneの小窝</title>
+    <title>测试文章 | Zaneの小窝</title>
     <meta name="author" content="Zane" />
     <meta name="description" content="No description" />
     <meta name="keywords" content="Zane" />
@@ -39,7 +39,11 @@
 
 
 
-<script src="/js/lib/search.js"></script>
+
+
+
+
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.31/twikoo.all.min.js"></script>
 
 
 
@@ -151,91 +155,83 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
-<div id="archives">
-    
-    <input id="search-bar" class="input" placeholder="搜索" v-model="rawSearch" />
-    
-    <div id="timeline-wrap" ref="timeline">
+            <div class="article">
+    <div>
+        <h1>测试文章</h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2024/3/26
+        </span>
         
-        <div class="timeline" data-title="正月のナナスタ">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2020/3/30</div>
-                <a href="/2020/03/30/%E6%AD%A3%E6%9C%88%E3%81%AE%E3%83%8A%E3%83%8A%E3%82%B9%E3%82%BF/">
-                    <h3>正月のナナスタ</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E6%97%A5%E5%B8%B8%E7%9A%84%E8%AE%B0%E5%BD%95/" style="color: #00a596">日常的记录</a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
+            <span class="category">
+            <a href="/categories/java/">
+                <span class="icon">
+                    <i class="fa-solid fa-bookmark fa-fw"></i>
+                </span>
+                java
+            </a>
+        </span>
         
-        <div class="timeline" data-title="测试文章">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/3/26</div>
-                <a href="/2024/03/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">
-                    <h3>测试文章</h3>
-                </a>
-                <div class="info">
-                    
-                    <span class="category">
-                        <a href="/categories/java/">
-                            <span class="icon">
-                                <i class="fa-solid fa-bookmark fa-fw"></i>
-                            </span>
-                            java
-                        </a>
-                    </span>
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E5%8E%9F%E5%88%9B/" style="color: #00a596">原创</a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
         
-        <div class="timeline" data-title="helloworld">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2024/8/26</div>
-                <a href="/2024/08/26/hello-world/">
-                    <h3>Hello World</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                </div>
-            </div>
-        </div>
+            <span class="tags">
+            <span class="icon">
+                <i class="fa-solid fa-tags fa-fw"></i>
+            </span>
+                
+                
+                    <span class="tag">
+                        
+                        <a href="/tags/%E5%8E%9F%E5%88%9B/" style="color: #ffa2c4">原创</a>
+            </span>
+                
+            </span>
         
     </div>
+    
+        <div class="content" v-pre>
+            <p>这是一篇测试文章</p>
+<img src="/2024/03/26/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/test.png" class="" title="测试图片">
+<span id="more"></span>
+<h1 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h1><h2 id="二级标题1"><a href="#二级标题1" class="headerlink" title="二级标题1"></a>二级标题1</h2><h2 id="二级标题2"><a href="#二级标题2" class="headerlink" title="二级标题2"></a>二级标题2</h2><h3 id="三级标题1"><a href="#三级标题1" class="headerlink" title="三级标题1"></a>三级标题1</h3><h3 id="三级标题2"><a href="#三级标题2" class="headerlink" title="三级标题2"></a>三级标题2</h3><h4 id="四级标题1"><a href="#四级标题1" class="headerlink" title="四级标题1"></a>四级标题1</h4><h4 id="四级标题2"><a href="#四级标题2" class="headerlink" title="四级标题2"></a>四级标题2</h4><h1 id="2、粗体，斜体，删除线和下划线"><a href="#2、粗体，斜体，删除线和下划线" class="headerlink" title="2、粗体，斜体，删除线和下划线"></a>2、粗体，斜体，删除线和下划线</h1><p><em>斜体</em></p>
+<p><strong>粗体</strong></p>
+<p><em><strong>删除线</strong></em></p>
+<p><del>下划线</del></p>
+<h1 id="3、引用块"><a href="#3、引用块" class="headerlink" title="3、引用块"></a>3、引用块</h1><blockquote>
+<p>‘pip install requests’</p>
+</blockquote>
+<h1 id="4、代码块"><a href="#4、代码块" class="headerlink" title="4、代码块"></a>4、代码块</h1><p><code>pip install requests单行代码</code></p>
+<pre class="line-numbers language-none"><code class="language-none">pip install requests
+pip install requests
+pip install requests
+多行代码<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h1 id="5、公式块"><a href="#5、公式块" class="headerlink" title="5、公式块"></a>5、公式块</h1><p>$$<br>a+b&#x3D;c<br>$$</p>
+<h1 id="6、分割线"><a href="#6、分割线" class="headerlink" title="6、分割线"></a>6、分割线</h1><h2 id=""><a href="#" class="headerlink" title="+++++++++++++++++++"></a>+++++++++++++++++++</h2><hr>
+<h1 id="7、列表"><a href="#7、列表" class="headerlink" title="7、列表"></a>7、列表</h1><ol>
+<li>有序列表项1</li>
+<li>有序列表项2</li>
+</ol>
+<ul>
+<li>无序列表项1</li>
+<li>无序列表项2</li>
+</ul>
+<h1 id="8、表格"><a href="#8、表格" class="headerlink" title="8、表格"></a>8、表格</h1>
+        </div>
+    
+    
+        
+        
+        
+        
+            <div id="comment">
+                <div id="twikoo-container"></div>
+            </div>
+        
+    
 </div>
 
             <footer id="footer">
@@ -266,6 +262,22 @@
         
     </div>
     <script src="/js/main.js"></script>
+    
+    
+
+
+
+    <script>
+        twikoo.init({
+            el: "#twikoo-container",
+            envId: "",
+            region: "",
+            path: location.pathname,
+            lang: "",
+        })
+    </script>
+
+
     
 </body>
 </html>
